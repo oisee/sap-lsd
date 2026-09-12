@@ -15,7 +15,21 @@ Two commands:
 | | what | run |
 |---|---|---|
 | **sap-lsd** | the server — plays the show to any SAP GUI | `./sap-lsd -listen :3200` |
-| **sap-tui** | a terminal viewer, for watching without a SAP GUI | `./sap-tui --addr HOST:3200` |
+| **sap-tui** | a terminal viewer, for watching without a SAP GUI | `sap-tui HOST:3200` |
+
+## Watch it live
+
+A public instance runs at **`demo.desude.su:3200`**.
+
+- **SAP GUI**: Application Server `demo.desude.su`, Instance Number **00**, no SNC.
+- **No SAP GUI?** Use **sap-tui** — the terminal viewer, its own repo and prebuilt
+  binaries (Linux / macOS / Windows): **https://github.com/oisee/sap-tui**
+
+  ```sh
+  # download a binary from the release, or:
+  go install github.com/oisee/sap-tui/cmd/sap-tui@latest
+  sap-tui demo.desude.su:3200
+  ```
 
 ## Build
 
@@ -34,9 +48,9 @@ from the scrubbed asset in `assets/`.
 - **SAP GUI**: Application Server = `HOST`, Instance Number = **00**, no SNC.
   (SAP instance `NN` maps to dispatcher port `32NN`; `:3200` = instance 00.
   Change `-listen :32NN` to move it, e.g. `:3212` = instance 12.)
-- **sap-tui**: `./sap-tui --addr HOST:3200` — read-only, `q` quits. Prebuilt
-  binaries land in `dist/` after `make viewers` (a Windows build is pending —
-  it needs a small terminal-size shim; use SAP GUI on Windows for now).
+- **sap-tui**: `sap-tui HOST:3200` — read-only, `q` quits. It lives in its own
+  repo with prebuilt binaries for Linux / macOS / Windows:
+  **https://github.com/oisee/sap-tui** (`make viewers` here builds copies into `dist/`).
 
 ## Deploy (systemd / cloud VM)
 
