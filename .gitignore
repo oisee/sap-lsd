@@ -1,0 +1,6 @@
+/bin/
+/dist/
+# never commit real (unscrubbed) captures
+captures/
+*.real.jsonl
+probe.script.jsonl

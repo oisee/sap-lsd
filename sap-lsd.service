@@ -1,0 +1,14 @@
+[Unit]
+Description=SAP-LSD - SAP Light-Show Dispatcher (DIAG demo)
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+WorkingDirectory=/opt/sap-lsd
+ExecStart=/opt/sap-lsd/sap-lsd -listen :3200 -mode demo -capture /opt/sap-lsd/assets/probe.scrubbed.jsonl -show /opt/sap-lsd/assets/show.json
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target

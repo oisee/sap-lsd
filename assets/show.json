@@ -1,0 +1,115 @@
+{
+  "sceneMs": 5000,
+  "show": [
+    {
+      "scene": "login",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "login",
+      "seconds": 2,
+      "speed": 2
+    },
+    {
+      "scene": "login",
+      "seconds": 2,
+      "speed": 3
+    },
+    {
+      "scene": "orbit",
+      "seconds": 4,
+      "speed": 1
+    },
+    {
+      "scene": "orbit",
+      "seconds": 3,
+      "speed": 1.5
+    },
+    {
+      "scene": "orbit",
+      "seconds": 3,
+      "speed": 2.5
+    },
+    {
+      "scene": "equalizer",
+      "seconds": 3,
+      "speed": 1
+    },
+    {
+      "scene": "equalizer",
+      "seconds": 3,
+      "speed": 1.5
+    },
+    {
+      "scene": "equalizer",
+      "seconds": 3,
+      "speed": 2.4
+    },
+    {
+      "scene": "snake",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "snake",
+      "seconds": 0,
+      "speed": 2
+    },
+    {
+      "scene": "fireworks",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "helix",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "solid",
+      "seconds": 4,
+      "speed": 1
+    },
+    {
+      "scene": "solid",
+      "seconds": 4,
+      "speed": 1.7
+    },
+    {
+      "scene": "octa",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "octa",
+      "seconds": 0,
+      "speed": 2
+    },
+    {
+      "scene": "matrix",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "plasma",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "rings",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "ball",
+      "seconds": 0,
+      "speed": 1
+    },
+    {
+      "scene": "greetstorm",
+      "seconds": 82,
+      "speed": 1
+    }
+  ]
+}
