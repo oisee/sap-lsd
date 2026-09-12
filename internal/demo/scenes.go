@@ -758,7 +758,7 @@ func sceneMatrix(ts float64, scr *frame.Screen) {
 // (oisee/vivid-vibes, build_demo_outro). Shuffled at startup (init below) with
 // Lars pinned first.
 var greetNames = []string{
-	"Lars Hvam Petersen",
+	"Lars Hvam Petersen", "Martin Gallo",
 	"Scott Hanselman", "Paul Modderman", "Jelena Perfiljeva", "Fred Huet",
 	"Holger Bruchelt", "Dr. Philip Herzig", "Level 9", "Infocom", "Amit Lal",
 	"Prof. Dr. Alexander Zeier", "Marian Zeis", "Anthropic", "Volker Buzek",
@@ -767,17 +767,17 @@ var greetNames = []string{
 	"Martin Pankraz", "Emma Qian", "Florian Farr", "S. Novikov", "Megus",
 	"SAP", "Devraj Bardhan", "IBM", "Random/CC", "Nora von Thenen", "TSL",
 	"Mistral", "Ivan Pirog", "Nik-O", "G_D", "JtN", "CyberJack", "4D",
-	"Triebkraft", "Stardust", "Gasman", "BaZe", "Nova", "Aki", "Arwel Owen",
+	"Triebkraft", "Stardust", "Gasman", "BaZe", "Nova", "Arwel Owen",
 	"Edgar Martinez", "DJ Adams", "Michael Keller", "Dirk Roeckmann", "3SC",
 	"K3L", "Robin van het Hof", "Yurii Sychov", "Aλex Nihirash", "Introspec",
 }
 
 // Shuffle the greets at startup so the roll differs run to run, but keep Lars
-// Hvam Petersen (index 0) at the front.
+// Hvam Petersen and Martin Gallo (indices 0-1) at the front.
 func init() {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
-	r.Shuffle(len(greetNames)-1, func(i, j int) {
-		greetNames[i+1], greetNames[j+1] = greetNames[j+1], greetNames[i+1]
+	r.Shuffle(len(greetNames)-2, func(i, j int) {
+		greetNames[i+2], greetNames[j+2] = greetNames[j+2], greetNames[i+2]
 	})
 }
 
