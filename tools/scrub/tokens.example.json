@@ -1,0 +1,13 @@
+{
+  "_comment": "Copy to tokens.json (gitignored) and put YOUR real values here. Every replacement MUST be the same length as the value it replaces.",
+  "hex": {
+    "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff": "0d0e30edfacadeba5e0000000000000000000000000000000000000000000000"
+  },
+  "ascii": {
+    "realhost01": "demovm-scn",
+    "203.0.113.7": "198.51.100.7"
+  },
+  "regex": [
+    ["-15-[0-9A-Fa-f]{32}-", "-15-00000000000000000000000000000000-"]
+  ]
+}

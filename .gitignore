@@ -4,3 +4,6 @@
 captures/
 *.real.jsonl
 probe.script.jsonl
+
+# the scrubber token table IS the list of what you hide — never commit it
+tools/scrub/tokens.json
