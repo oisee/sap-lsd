@@ -84,9 +84,10 @@ unscrubbed capture (`.gitignore` blocks the usual names).
 
 `internal/` vendors the packages this needs, unchanged, from the author's other
 projects: the DIAG codec, canvas, scene engine and ALV/LZH from
-`open-diag-go`, the NI network layer from `open-rfc-go`, and `sapcompress`
-from `vibing-steampunk`. This repo is the shippable light-show carved out of
-them.
+[**open-diag-go**](https://github.com/oisee/open-diag-go) (the SAP DIAG protocol
+library this is built on), the NI network layer from
+[**open-rfc-go**](https://github.com/oisee/open-rfc-go), and `sapcompress` from
+`vibing-steampunk`. This repo is the shippable light-show carved out of them.
 
 MIT licensed. Not affiliated with or endorsed by SAP SE. "SAP" is a trademark
 of SAP SE; used here only to name the protocol this speaks.
