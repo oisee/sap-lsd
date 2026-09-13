@@ -19,6 +19,8 @@ Two commands:
 
 ## Watch it live
 
+📺 **See it in action:** https://www.youtube.com/watch?v=Pszxxj-OUAk
+
 A public instance runs at **`demo.desude.su:3200`**.
 
 - **SAP GUI**: Application Server `demo.desude.su`, Instance Number **00**, no SNC.
