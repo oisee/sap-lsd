@@ -1791,7 +1791,7 @@ func staticRespond(cap *replay.Capture, wrapFrame int, mode string, client []dia
 // GUI and the TUI both show the whole vocabulary at once.
 func showcaseScreen() *frame.Screen {
 	return frame.New(27, 120).
-		Frame(0, 0, 64, 13, "Field types open-diag-go-pro can encode").
+		Frame(0, 0, 64, 13, "Field types open-diag-go can encode").
 		Text(1, 2, "label").Text(1, 16, "a static caption").
 		Text(2, 2, "output").Output(2, 16, 24, "F_OUT", "read-only text", false).
 		Text(3, 2, "number").Number(3, 16, 10, "F_NUM", 42).

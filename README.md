@@ -84,7 +84,7 @@ unscrubbed capture (`.gitignore` blocks the usual names).
 
 `internal/` vendors the packages this needs, unchanged, from the author's other
 projects: the DIAG codec, canvas, scene engine and ALV/LZH from
-`open-diag-go-pro`, the NI network layer from `open-rfc-go`, and `sapcompress`
+`open-diag-go`, the NI network layer from `open-rfc-go`, and `sapcompress`
 from `vibing-steampunk`. This repo is the shippable light-show carved out of
 them.
 
