@@ -19,7 +19,9 @@ Two commands:
 
 ## Watch it live
 
-📺 **See it in action:** https://www.youtube.com/watch?v=Pszxxj-OUAk
+📺 **See it in action** ([watch on YouTube](https://www.youtube.com/watch?v=Pszxxj-OUAk)):
+
+[![sap-lsd — a demoscene light-show played to a real SAP GUI](https://img.youtube.com/vi/Pszxxj-OUAk/maxresdefault.jpg)](https://www.youtube.com/watch?v=Pszxxj-OUAk)
 
 A public instance runs at **`demo.desude.su:3200`**.
 
